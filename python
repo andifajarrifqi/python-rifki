@@ -1,20 +1,20 @@
 pilihan="y"
-while pilihan=="y":
-    print("""
-    ==============================
+    while pilihan=="y":
+        print("""
+        ==============================
+        
+        Ananda Coffe
+        List Menu Minuman Kopi 
     
-    Ananda Coffe
-    List Menu Minuman Kopi 
- 
-    ==============================
-    A. ES Kopi Susu : Rp 11.000
-    B. ES Kopi Coklat : Rp 12.000
-    C. ES Kopi Hitam : Rp 11.000
-    D. Ice Americano : Rp 14.000
-    ==============================
-    """)
-    pesan=str(input("masukkan list abjad menu kopi ="))
-    jumlahpesan=int(input("masukkan jumlah pesanan ="))
+        ==============================
+        A. ES Kopi Susu : Rp 11.000
+        B. ES Kopi Coklat : Rp 12.000
+        C. ES Kopi Hitam : Rp 11.000
+        D. Ice Americano : Rp 14.000
+        ==============================
+        """)
+        pesan=str(input("masukkan list abjad menu kopi ="))
+        jumlahpesan=int(input("masukkan jumlah pesanan ="))
     if pesan == "a":
         listnama= "ES Kopi Susu"
         harga=(11000*jumlahpesan)
